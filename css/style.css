@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Roboto Serif", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+p {
+  font-size: 1em;
+  color: #777; 
+}
+
+.cabecalho {
+  width: 100%;
+  float: left;
+  padding: 50px 8%;
+  background-color: #13c7ae;
+}
+
+.logo a{
+    width: 221px;
+    height: 48px;
+    float: left;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+.cabecalho input[type="text"]{
+    width: 85%;
+    padding: 15px 10px;
+    float: left;
+}
+.cabecalho button{
+    width: 15%;
+    padding: 15px 10px;
+    float: right;
+    background-color: #0cae98;
+    color: white;
+    cursor: pointer;
+}
+.menu{
+    width: 100%;
+    float: left;
+    padding: 18px 8%;
+    background-color: #111;
+
+}
+.menu li{
+    float: left;
+    color: #9d9d9d;
+
+}
+.menu li a{
+    margin-right: 25px;
+    color: #9d9d9d;
+
+}
+.menu li a:hover{
+    margin-right: 35px;
+    color: #fff;
+
+}
